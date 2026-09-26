@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VMOS Auto Tool</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+<div class="khung">
+  <h1>VMOS CLOUD AUTO TOOL</h1>
+  <p class="phu">Tự động lấy mail tạm — nhận OTP — đổi mật khẩu</p>
+  <div class="nut-hang">
+    <button id="btn-chay">BẮT ĐẦU QUY TRÌNH</button>
+    <button id="btn-tai">TẢI KẾT QUẢ</button>
+    <button id="btn-xoa">XÓA LOG</button>
+  </div>
+  <div id="khoi-captcha" style="display:none;">
+    <p>Xác thực CAPTCHA để tiếp tục:</p>
+    <div class="g-recaptcha" id="recaptcha-widget"></div>
+  </div>
+  <pre id="log"></pre>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
